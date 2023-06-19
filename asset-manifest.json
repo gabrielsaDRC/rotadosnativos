@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/rotadosnatios/static/css/main.198e9034.css",
+    "main.js": "/rotadosnatios/static/js/main.f6319537.js",
+    "static/media/background4.png": "/rotadosnatios/static/media/background4.9d2fb01c029260f99e8e.png",
+    "static/media/fa-solid-900.ttf": "/rotadosnatios/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/fa-brands-400.ttf": "/rotadosnatios/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/rotadosnatios/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/BAD GRUNGE.ttf": "/rotadosnatios/static/media/BAD GRUNGE.329fc4cd5590ef7d52bb.ttf",
+    "static/media/fa-brands-400.woff2": "/rotadosnatios/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/fa-regular-400.ttf": "/rotadosnatios/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/fa-regular-400.woff2": "/rotadosnatios/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/rotadosnatios/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/rotadosnatios/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/rotadosnatios/index.html",
+    "main.198e9034.css.map": "/rotadosnatios/static/css/main.198e9034.css.map",
+    "main.f6319537.js.map": "/rotadosnatios/static/js/main.f6319537.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.198e9034.css",
+    "static/js/main.f6319537.js"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "short_name": "Rota dos Nativos",
+  "name": "Rota dos Nativos",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
