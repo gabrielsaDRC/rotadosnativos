@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0px !important;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +10,31 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'BadGrunge';
+  src: url('../public/fonts/BAD\ GRUNGE.ttf') format('truetype');
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-lg-4 {
+  width: 33.3333333333%;
+}
+
+.col-lg-6 {
+  width: 50%;
+}
+
+:root {
+  box-sizing: border-box;
+}
+
+html, body, #app, #app>div {
+  height: 100%;
+  width: 100%;
 }

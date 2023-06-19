@@ -1,0 +1,242 @@
+  .passeios-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    background-color: rgb(250 235 221);;
+  }
+
+  .passeios-title {
+    font-size: 60px;
+    font-family: 'BadGrunge';
+    margin-top: 70px;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 5px rgb(0 0 0);
+    letter-spacing: 3px;
+    color: rgb(251 127 17);
+    font-weight: 500;
+  }
+
+  .passeios-description {
+    font-family: 'BadGrunge';
+    font-size: 4vh;
+    text-align: center;
+    padding: 15px;
+    text-shadow: 3px 3px 5px rgb(191 191 191);
+    letter-spacing: 3px;
+    font-weight: 500;
+  }
+
+  .passeios-images-div {
+
+    justify-content: center;
+    width: 100%;
+
+  }
+
+  .passeios-container{
+    width: 70vh;
+    margin: 10px;
+  }
+
+  .passeios-image-container {
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .passeios-image-container:hover .passeio-description {
+    display: block;
+  }
+
+  .passeios-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5% 5% 5% 5%/5% 5% 5% 5%;
+  }
+
+  .passeios-description-menu {
+    font-family: 'BadGrunge';
+    font-size: 4vh;
+    text-shadow: 3px 3px 1px rgb(255 255 255);
+    letter-spacing: 3px;
+    font-weight: 500;
+    margin: 0px;
+    padding-left: 2vh;
+  }
+
+  .passeios-text {
+    padding-left: 2vh;
+    padding-right: 2vh;
+    text-align: justify;
+    margin-bottom: 0px;
+    color: #6c757d;
+  }
+
+  .passeio-target-whats {
+    text-decoration: none;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    display: inline-block;
+  }
+
+  .passeios-fale-conosco {
+    color: #42ea55;
+    font-weight: 600;
+    font-size: 2vh;
+    margin-bottom: 0px;
+  }
+
+  .passeios-fale-conosco:hover {
+    color: black;
+  }
+
+  .passeio-description {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(1,36,70,0) 0%, rgb(30 30 30 / 78%) 52.08%);
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 24px;
+    border-radius: 3vh;
+    animation-duration: 1s;
+    display: none;
+  }
+  
+  .carousel-description p {
+    margin: 0;
+    padding: 15px;
+  }
+
+  @keyframes slide-down {
+    0% {
+      transform: translateY(-20%);
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+
+  .modal-box {
+    height: 70%;
+    width: 70%;
+    border: 3px solid #333333;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    overflow: overlay;
+    border-radius: 5px;
+  }
+
+  .close-modal {
+    position: absolute;
+    top: 3%;
+    right: 3%;
+  }
+
+  .modal-description {
+    width: 100%;
+    text-align: center;
+  }
+
+  .modal-description p {
+    text-align: center;
+  }
+
+  .title-modal {
+    border-bottom: 3px solid #333333;
+    padding: 15px;
+    font-size: 60px;
+    font-family: 'BadGrunge';
+    text-shadow: 3px 3px 5px rgb(0 0 0);
+    letter-spacing: 3px;
+    color: rgb(251 127 17);
+    font-weight: 500;
+    margin: 0px;
+  }
+
+  .title-modal-description {
+    font-size: 4vh;
+    font-family: 'BadGrunge';
+    text-shadow: 3px 3px 5px rgb(194, 194, 194);
+    letter-spacing: 3px;
+    color: rgb(3, 3, 3);
+    font-weight: 500;
+    margin: 0px;
+  }
+
+  .modal-close {
+    position: absolute;
+    top: 2vh;
+    right: 2vh;
+    cursor: pointer;
+    text-shadow: 3px 3px 5px rgb(194, 194, 194);
+  }
+
+  .modal-close:hover {
+    color: rgb(251 127 17);
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    
+    .passeios-container {
+      display: contents;
+    }
+
+    .passeios-images-div {
+      text-align: center;
+    }
+
+    .passeios-image-container {
+      height: 40vh !important;
+      width: 40vh !important;
+      padding-top: 40px;
+    }
+
+    .modal-box{
+      top: 55%;
+      width: 80%;
+    }
+
+    .title-modal {
+      font-size: 5vh;
+      margin-top: 20px;
+    }
+
+    .passeio-modal-description {
+      width: 100%;
+    }
+
+    .passeio-description {
+      border-radius: 2vh;
+      display: block;
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 1vh;
+      right: 1.5vh;
+    }
+
+    .fa-2xl {
+      font-size: 1.4em;
+    }
+  }
+ 

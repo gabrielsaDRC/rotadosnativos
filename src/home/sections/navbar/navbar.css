@@ -1,0 +1,143 @@
+.header-container {
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(251 127 17);
+  border-bottom: 5px solid #333333;
+}
+
+.nav-header-div {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 10px 20px;
+}
+
+.nav-button {
+  transition: color 0.3s ease-in-out;
+  font-family: 'BadGrunge';
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  font-size: 3vh;
+  text-shadow: 1px 2px 1px rgb(243 243 243);
+  letter-spacing: 3px;
+}
+
+.nav-button:hover {
+  color: rgb(158, 76, 0);
+}
+
+.nav-ul {
+  list-style: none; 
+  display: flex;
+  gap: 20px; 
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.water-bubble {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  pointer-events: none;
+  animation: waterBubble 2s ease-out infinite;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+}
+
+@keyframes waterBubble {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0;
+  }
+}
+
+.logo-folhas { 
+  height: 30%;
+  position: fixed; 
+  top: 0px; 
+  left: 0px; 
+}
+
+.logo-rotas { 
+  height: 15%; 
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.slide-nav {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  .nav-header-div {
+    display: inline;
+    padding: 0px;
+  }
+
+  .hidden-navbar{
+    display: none;
+  }
+
+  .visible-navbar{
+    display: block;
+  }
+
+  .nav-header {
+    margin-top: 120px;
+    animation-name: slide-down;
+    animation-duration: 0.5s;
+    position: relative;
+  }
+
+  .nav-ul {
+    text-align: center;
+    display:block;
+    margin: auto;
+    padding: 0px;
+  }
+
+  .nav-header li {
+    padding-bottom: 15px;
+    font-size: 20px;
+  }
+
+  .slide-nav {
+    display: inline;
+    color: white;
+    position: relative; 
+    padding: 20px;
+    float: right;
+  }
+
+  .header-container {
+    animation-name: slide-down;
+    animation-duration: 0.5s;
+  }
+
+  @keyframes slide-down {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+}

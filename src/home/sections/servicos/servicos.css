@@ -1,0 +1,83 @@
+  .servicos-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    background-color: rgb(250 235 221);;
+  }
+
+  .servicos-title {
+    margin-bottom: 20px;
+    margin-top: 60px;
+    font-size: 60px;
+    font-family: 'BadGrunge';
+    text-shadow: 3px 3px 5px rgb(0 0 0);
+    letter-spacing: 3px;
+    color: rgb(251 127 17);
+    font-weight: 500;
+  }
+
+  .text-muted {
+    color: #6c757d;
+  }
+
+  .service-box-content {
+    text-align: center;
+    margin-bottom: 3rem!important;
+    margin-top: 3rem!important;
+  }
+
+  .description-services {
+    width: 50%;
+    text-align: center;
+  }
+
+  .container-services {
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+
+  .center-service-icon {
+    justify-content: center;
+    display: flex;
+  }
+
+  .middle-icon-service {
+    background-color: #333333;
+    color: #FFFFFF;
+    border-radius: 30% 30% 30% 30%/30% 30% 30% 30%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease-in-out;
+ }
+
+  .servicos-logo {
+    height: 10vh; 
+    float: right; 
+    position: absolute; 
+    right: 5vh; 
+    bottom: 0;
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    .service-box {
+      width: 90%;
+    }
+
+    .container-services {
+      display: contents;
+    }
+
+    .description-services {
+      width: 90%;
+    }
+
+  }
