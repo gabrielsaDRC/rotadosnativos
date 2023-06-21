@@ -8,7 +8,6 @@ import './index.css';
 //import './home/components.css';
 //import './home/bootstrap.min.css';
 
-
 /* 1 - NAVBAR */
 import './home/sections/navbar/navbar.css'
 import Navbar from './home/sections/navbar/navbar.js'
