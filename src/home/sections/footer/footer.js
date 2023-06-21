@@ -18,7 +18,7 @@ const Footer = () => {
                 </a>
               </div>
               <div>
-                <a href="https://api.whatsapp.com/send?phone=41988780788" target="_blank" rel="noopener noreferrer">
+                <a href="https://api.whatsapp.com/send?phone=8488016205" target="_blank" rel="noopener noreferrer">
                   <span ><i className="fa fa-phone"></i> (84) 98801-6205</span>
                 </a>
               </div>

@@ -76,7 +76,7 @@ const Passeios_Fotos = () => {
         </div>
         <h3 className="passeios-description-menu">Rota dos Nativos - 4x4</h3>
         <p className="passeios-text">A Rota dos Nativos em um emocionante passeio 4x4 promete um dia repleto de maravilhas naturais. Visitaremos o Museu Aeroespacial Barreira do Inferno e o Majestoso Cajueiro do Mundo. Exploraremos trilhas e dunas nativas, mergulhando em lagoas cristalinas, desfrutando de praias paradisíacas com formações de pedras magníficas e piscinas naturais.</p>
-        <a className="passeio-target-whats" href="https://api.whatsapp.com/send?phone=41988780788" target="_blank"><p className="passeios-fale-conosco"><i class="fa fa-phone"></i>  Fale Conosco</p></a>
+        <a className="passeio-target-whats" href="https://api.whatsapp.com/send?phone=8488016205" target="_blank"><p className="passeios-fale-conosco"><i class="fa fa-phone"></i>  Fale Conosco</p></a>
       </div>
       <div className="passeios-container">
         <div className="passeios-image-container" onClick={openModal2}>
@@ -87,7 +87,7 @@ const Passeios_Fotos = () => {
         </div>
         <h3 className="passeios-description-menu">Passeio de buggy litoral norte - Genipabu</h3>
         <p className="passeios-text">O passeio de buggy possui uma média de sete horas de duração, durante as quais exploraremos um magnífico itinerário com nove praias paradisíacas, três lagoas exuberantes e três encantadores parques de dunas. Desde o início, partiremos de maneira emocionante do próprio hotel, a bordo de buggies.</p>
-        <a className="passeio-target-whats" href="https://api.whatsapp.com/send?phone=41988780788" target="_blank"><p className="passeios-fale-conosco"><i class="fa fa-phone"></i>  Fale Conosco</p></a>
+        <a className="passeio-target-whats" href="https://api.whatsapp.com/send?phone=8488016205" target="_blank"><p className="passeios-fale-conosco"><i class="fa fa-phone"></i>  Fale Conosco</p></a>
       </div>
     </div>
     <div className="passeios-images-div row">
@@ -100,7 +100,7 @@ const Passeios_Fotos = () => {
         </div>
         <h3 className="passeios-description-menu">Norte Vip 4x4</h3>
         <p className="passeios-text">Embarque em uma emocionante jornada nos veículos modelos Off Road 4x4 na Recepção do seu Hotel, iremos sentido litoral Norte de Natal/RN até Maracajaú. Ao longo do caminho, encante-se com as belas paisagens e faça paradas em nossas praias urbanas para fotos.</p>
-        <a className="passeio-target-whats" href="https://api.whatsapp.com/send?phone=41988780788" target="_blank"><p className="passeios-fale-conosco"><i class="fa fa-phone"></i>  Fale Conosco</p></a>
+        <a className="passeio-target-whats" href="https://api.whatsapp.com/send?phone=8488016205" target="_blank"><p className="passeios-fale-conosco"><i class="fa fa-phone"></i>  Fale Conosco</p></a>
       </div>
       <div className="passeios-container">
         <div className="passeios-image-container" onClick={openModal4}>
@@ -111,7 +111,7 @@ const Passeios_Fotos = () => {
         </div>
         <h3 className="passeios-description-menu">Incrivel Super Pipa</h3>
         <p className="passeios-text">Explore o Litoral Sul do Rio Grande do Norte, começando pela Praia de Camurupim com explicações de um guia capacitado, que proporcionará uma imersão na história da região. Este é o melhor e mais completo passeio de Natal, com incríveis 11 horas de deslumbrantes belezas naturais e, o melhor de tudo, tempo para desfrutar de tudo com tranquilidade.</p>
-        <a className="passeio-target-whats" href="https://api.whatsapp.com/send?phone=41988780788" target="_blank"><p className="passeios-fale-conosco"><i class="fa fa-phone"></i>  Fale Conosco</p></a>
+        <a className="passeio-target-whats" href="https://api.whatsapp.com/send?phone=8488016205" target="_blank"><p className="passeios-fale-conosco"><i class="fa fa-phone"></i>  Fale Conosco</p></a>
       </div>
     </div>
     <div className="passeios-images-div row">
@@ -124,7 +124,7 @@ const Passeios_Fotos = () => {
         </div>
         <h3 className="passeios-description-menu">PEROBAS + PUNAU</h3>
         <p className="passeios-text">A praia de Perobas, localizada a 78 km ao norte da cidade de Natal, é um refúgio tranquilo com a atmosfera encantadora de uma vila de pescadores.</p>
-        <a className="passeio-target-whats" href="https://api.whatsapp.com/send?phone=41988780788" target="_blank"><p className="passeios-fale-conosco"><i class="fa fa-phone"></i>  Fale Conosco</p></a>
+        <a className="passeio-target-whats" href="https://api.whatsapp.com/send?phone=8488016205" target="_blank"><p className="passeios-fale-conosco"><i class="fa fa-phone"></i>  Fale Conosco</p></a>
       </div>
       <div className="passeios-container">
         <div className="passeios-image-container" onClick={openModal6}>
@@ -135,7 +135,7 @@ const Passeios_Fotos = () => {
         </div>
         <h3 className="passeios-description-menu">Praia da Pipa</h3>
         <p className="passeios-text">Pipa é uma das praias mais renomadas e belas do Brasil, sendo frequentemente listada entre as 10 mais bonitas. Localizada a cerca de 85 km de Natal, no litoral sul do estado, Pipa é conhecida por ser um lar natural de golfinhos e tartarugas.</p>
-        <a className="passeio-target-whats" href="https://api.whatsapp.com/send?phone=41988780788" target="_blank"><p className="passeios-fale-conosco"><i class="fa fa-phone"></i>  Fale Conosco</p></a>
+        <a className="passeio-target-whats" href="https://api.whatsapp.com/send?phone=8488016205" target="_blank"><p className="passeios-fale-conosco"><i class="fa fa-phone"></i>  Fale Conosco</p></a>
       </div>
     </div>
     <div className='modal-1'>
