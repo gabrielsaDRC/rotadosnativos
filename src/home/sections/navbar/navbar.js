@@ -61,7 +61,7 @@ const Navbar = () => {
               <li><a className="nav-button" onClick={closeNavbar} href="#" style={{ textDecoration: 'none' }}>Inicio</a></li>
               <li><a className="nav-button" onClick={closeNavbar} href="#passeios" style={{ textDecoration: 'none' }}>Passeios</a></li>
               <li><a className="nav-button" onClick={closeNavbar} href="#servicos" style={{ textDecoration: 'none' }}>Servicos</a></li>
-              <li><a className="nav-button" onClick={closeNavbar} href="https://api.whatsapp.com/send?phone=8488016205" target="_blank" style={{ textDecoration: 'none' }}>Fale Conosco</a></li>
+              <li><a className="nav-button" onClick={closeNavbar} href="https://api.whatsapp.com/send?phone=8496872228" target="_blank" style={{ textDecoration: 'none' }}>Fale Conosco</a></li>
             </ul>
           </nav>
           <a></a>

@@ -12,6 +12,8 @@ const Passeios_Fotos = () => {
   const [modalIsOpen4, setModalIsOpen4] = useState(false);
   const [modalIsOpen5, setModalIsOpen5] = useState(false);
   const [modalIsOpen6, setModalIsOpen6] = useState(false);
+  const [modalIsOpen7, setModalIsOpen7] = useState(false);
+  const [modalIsOpen8, setModalIsOpen8] = useState(false);
 
   const openModal1 = () => {
     setModalIsOpen1(true);
@@ -35,6 +37,14 @@ const Passeios_Fotos = () => {
 
   const openModal6 = () => {
     setModalIsOpen6(true);
+  };
+
+  const openModal7 = () => {
+    setModalIsOpen7(true);
+  };
+
+  const openModal8 = () => {
+    setModalIsOpen8(true);
   };
 
 
@@ -62,6 +72,14 @@ const Passeios_Fotos = () => {
     setModalIsOpen6(false);
   };
 
+  const closeModal7 = () => {
+    setModalIsOpen7(false);
+  };
+
+  const closeModal8 = () => {
+    setModalIsOpen8(false);
+  };
+
  return (
    <section className="passeios-section" id="passeios">
     <h2 className="passeios-title">Passeios em Natal</h2>
@@ -76,7 +94,7 @@ const Passeios_Fotos = () => {
         </div>
         <h3 className="passeios-description-menu">Rota dos Nativos - 4x4</h3>
         <p className="passeios-text">A Rota dos Nativos em um emocionante passeio 4x4 promete um dia repleto de maravilhas naturais. Visitaremos o Museu Aeroespacial Barreira do Inferno e o Majestoso Cajueiro do Mundo. Exploraremos trilhas e dunas nativas, mergulhando em lagoas cristalinas, desfrutando de praias paradisíacas com formações de pedras magníficas e piscinas naturais.</p>
-        <a className="passeio-target-whats" href="https://api.whatsapp.com/send?phone=8488016205" target="_blank"><p className="passeios-fale-conosco"><i class="fa fa-phone"></i>  Fale Conosco</p></a>
+        <a className="passeio-target-whats" href="https://api.whatsapp.com/send?phone=8496872228" target="_blank"><p className="passeios-fale-conosco"><i class="fa fa-phone"></i>  Fale Conosco</p></a>
       </div>
       <div className="passeios-container">
         <div className="passeios-image-container" onClick={openModal2}>
@@ -87,7 +105,7 @@ const Passeios_Fotos = () => {
         </div>
         <h3 className="passeios-description-menu">Passeio de buggy litoral norte - Genipabu</h3>
         <p className="passeios-text">O passeio de buggy possui uma média de sete horas de duração, durante as quais exploraremos um magnífico itinerário com nove praias paradisíacas, três lagoas exuberantes e três encantadores parques de dunas. Desde o início, partiremos de maneira emocionante do próprio hotel, a bordo de buggies.</p>
-        <a className="passeio-target-whats" href="https://api.whatsapp.com/send?phone=8488016205" target="_blank"><p className="passeios-fale-conosco"><i class="fa fa-phone"></i>  Fale Conosco</p></a>
+        <a className="passeio-target-whats" href="https://api.whatsapp.com/send?phone=8496872228" target="_blank"><p className="passeios-fale-conosco"><i class="fa fa-phone"></i>  Fale Conosco</p></a>
       </div>
     </div>
     <div className="passeios-images-div row">
@@ -100,7 +118,7 @@ const Passeios_Fotos = () => {
         </div>
         <h3 className="passeios-description-menu">Norte Vip 4x4</h3>
         <p className="passeios-text">Embarque em uma emocionante jornada nos veículos modelos Off Road 4x4 na Recepção do seu Hotel, iremos sentido litoral Norte de Natal/RN até Maracajaú. Ao longo do caminho, encante-se com as belas paisagens e faça paradas em nossas praias urbanas para fotos.</p>
-        <a className="passeio-target-whats" href="https://api.whatsapp.com/send?phone=8488016205" target="_blank"><p className="passeios-fale-conosco"><i class="fa fa-phone"></i>  Fale Conosco</p></a>
+        <a className="passeio-target-whats" href="https://api.whatsapp.com/send?phone=8496872228" target="_blank"><p className="passeios-fale-conosco"><i class="fa fa-phone"></i>  Fale Conosco</p></a>
       </div>
       <div className="passeios-container">
         <div className="passeios-image-container" onClick={openModal4}>
@@ -111,7 +129,7 @@ const Passeios_Fotos = () => {
         </div>
         <h3 className="passeios-description-menu">Incrivel Super Pipa</h3>
         <p className="passeios-text">Explore o Litoral Sul do Rio Grande do Norte, começando pela Praia de Camurupim com explicações de um guia capacitado, que proporcionará uma imersão na história da região. Este é o melhor e mais completo passeio de Natal, com incríveis 11 horas de deslumbrantes belezas naturais e, o melhor de tudo, tempo para desfrutar de tudo com tranquilidade.</p>
-        <a className="passeio-target-whats" href="https://api.whatsapp.com/send?phone=8488016205" target="_blank"><p className="passeios-fale-conosco"><i class="fa fa-phone"></i>  Fale Conosco</p></a>
+        <a className="passeio-target-whats" href="https://api.whatsapp.com/send?phone=8496872228" target="_blank"><p className="passeios-fale-conosco"><i class="fa fa-phone"></i>  Fale Conosco</p></a>
       </div>
     </div>
     <div className="passeios-images-div row">
@@ -124,7 +142,7 @@ const Passeios_Fotos = () => {
         </div>
         <h3 className="passeios-description-menu">PEROBAS + PUNAU</h3>
         <p className="passeios-text">A praia de Perobas, localizada a 78 km ao norte da cidade de Natal, é um refúgio tranquilo com a atmosfera encantadora de uma vila de pescadores.</p>
-        <a className="passeio-target-whats" href="https://api.whatsapp.com/send?phone=8488016205" target="_blank"><p className="passeios-fale-conosco"><i class="fa fa-phone"></i>  Fale Conosco</p></a>
+        <a className="passeio-target-whats" href="https://api.whatsapp.com/send?phone=8496872228" target="_blank"><p className="passeios-fale-conosco"><i class="fa fa-phone"></i>  Fale Conosco</p></a>
       </div>
       <div className="passeios-container">
         <div className="passeios-image-container" onClick={openModal6}>
@@ -135,7 +153,29 @@ const Passeios_Fotos = () => {
         </div>
         <h3 className="passeios-description-menu">Praia da Pipa</h3>
         <p className="passeios-text">Pipa é uma das praias mais renomadas e belas do Brasil, sendo frequentemente listada entre as 10 mais bonitas. Localizada a cerca de 85 km de Natal, no litoral sul do estado, Pipa é conhecida por ser um lar natural de golfinhos e tartarugas.</p>
-        <a className="passeio-target-whats" href="https://api.whatsapp.com/send?phone=8488016205" target="_blank"><p className="passeios-fale-conosco"><i class="fa fa-phone"></i>  Fale Conosco</p></a>
+        <a className="passeio-target-whats" href="https://api.whatsapp.com/send?phone=8496872228" target="_blank"><p className="passeios-fale-conosco"><i class="fa fa-phone"></i>  Fale Conosco</p></a>
+      </div>
+      <div className="passeios-container">
+        <div className="passeios-image-container" onClick={openModal7}>
+          <img className="passeios-image" src="./images/passeios/image-7.jpeg"/>
+          <div className="passeio-description">
+            <p>Saiba Mais</p>
+          </div>
+        </div>
+        <h3 className="passeios-description-menu">Galinhos com Barco</h3>
+        <p className="passeios-text">Bem-vindo ao passeio imperdível em Galinhos, no coração do Nordeste do Brasil! Este é o destino ideal para os amantes da natureza e da tranquilidade, embarque em uma aventura única de barco descubra a beleza intocada desse paraíso costeiro.</p>
+        <a className="passeio-target-whats" href="https://api.whatsapp.com/send?phone=8496872228" target="_blank"><p className="passeios-fale-conosco"><i class="fa fa-phone"></i>  Fale Conosco</p></a>
+      </div>
+      <div className="passeios-container">
+        <div className="passeios-image-container" onClick={openModal8}>
+          <img className="passeios-image" src="./images/passeios/image-7.jpeg"/>
+          <div className="passeio-description">
+            <p>Saiba Mais</p>
+          </div>
+        </div>
+        <h3 className="passeios-description-menu">Sao Miguel do Gostoso</h3>
+        <p className="passeios-text">São Miguel do Gostoso, a joia escondida do Nordeste do Brasil! Se você está em busca de uma experiência única e autêntica, cercada por belezas naturais e uma atmosfera descontraída, este é o lugar perfeito para você.</p>
+        <a className="passeio-target-whats" href="https://api.whatsapp.com/send?phone=8496872228" target="_blank"><p className="passeios-fale-conosco"><i class="fa fa-phone"></i>  Fale Conosco</p></a>
       </div>
     </div>
     <div className='modal-1'>
@@ -432,6 +472,109 @@ const Passeios_Fotos = () => {
                       <p>
                         O veiculo utilizado depende da quantidade de pessoas reservadas no dia, podendo ser VAN, MICRO ÔNIBUS ou ÔNIBUS. <br></br>
                         Recomendações: Roupas leves, roupa para banho, óculos e protetor solar.
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </Modal>
+    </div>
+    <div className='modal-7'>
+      <Modal isOpen={modalIsOpen7} onRequestClose={closeModal7} contentLabel="Exemplo de Modal" className="modal-box">
+          <div className="modal-description">
+              <a className="modal-close" onClick={closeModal7}>
+                <i className="fa-solid fa-xmark fa-2xl"></i>
+              </a>
+              <div>
+                  <h2 className="title-modal">Galinhos com Barco</h2>
+              </div>
+              <div style={{ padding: '15px' }}>
+                  <h3 className="title-modal-description">DESCRICAO DO PASSEIO:</h3>
+                  <p>
+                    Localizado a 160km da cida do Natal, o passeio para Galinhos conta com uma paisagem impar e rústica. Localizada em uma península, nosso passeio e realizado até lá de van ou micro, chegando em Galinhos continuamos com um barco, esse barco sera o meio de trasporte para explorar as passagens de uma cidade que preserva traços de vilarejo.  
+                    O município faz parte da região salineira do Estado, inserida no Polo Turístico "Costa Branca". O roteiro inclui visita a Galinhos, banho na lagoa do Capim e tem como ponto final a praia de Galos onde ocorre a parada para Almoço. 
+                  </p>
+            </div>
+              <div className='row' style={{ padding: '15px' }}>
+                  <div className='col-lg-6 passeio-modal-description'>
+                      <h3 className="title-modal-description">INFORMACOES GERAIS:</h3>
+                      <p>
+                        Consultar dias de saída.
+                      </p>
+                  </div>
+                  <div className='col-lg-6 passeio-modal-description'>
+                      <h3 className="title-modal-description">O QUE ESTA INCLUSO:</h3>
+                      <p>
+                        Transporte <br></br>
+                        Guia de turismo <br></br>
+                        Seguro passageiro <br></br>
+                        Passeio de barco <br></br>
+                      </p>
+                  </div>
+              </div>
+              <div className='row' style={{ padding: '15px' }}>
+                  <div className='col-lg-6 passeio-modal-description'>
+                      <h3 className="title-modal-description">O QUE NAO ESTA  INCLUSO:</h3>
+                      <p>
+                        Serviços terceirizados <br></br>
+                        Alimentação e Bebidas<br></br>
+                        Passeio de charrete até o Farol<br></br>
+                        Passeio de Buggy nas dunas de Galos<br></br>
+                      </p>
+                  </div>
+                  <div className='col-lg-6 passeio-modal-description'>
+                      <h3 className="title-modal-description">OBSERVACOES:</h3>
+                      <p>
+                        N/D
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </Modal>
+    </div>
+    <div className='modal-8'>
+      <Modal isOpen={modalIsOpen8} onRequestClose={closeModal8} contentLabel="Exemplo de Modal" className="modal-box">
+          <div className="modal-description">
+              <a className="modal-close" onClick={closeModal8}>
+                <i className="fa-solid fa-xmark fa-2xl"></i>
+              </a>
+              <div>
+                  <h2 className="title-modal">Sao Miguel do Gostoso</h2>
+              </div>
+              <div style={{ padding: '15px' }}>
+                  <h3 className="title-modal-description">DESCRICAO DO PASSEIO:</h3>
+                  <p>
+                    A primeira parada ocorre no Marco Zero da BR 101, rodovia que tem início em Touros no Estado do Rio Grande do Norte e termina no Rio Grande do Sul. Seguiremos para conhecer a cachaçaria URCA DO TUBARÃO e daremos continuidade ao passeio na famosa praia de São Miguel do Gostoso onde realizamos parada para almoço e ao final da tarde contemplaremos o belíssimo pôr do sol da região.
+                  </p>
+            </div>
+              <div className='row' style={{ padding: '15px' }}>
+                  <div className='col-lg-6 passeio-modal-description'>
+                      <h3 className="title-modal-description">INFORMACOES GERAIS:</h3>
+                      <p>
+                        Distância: 115 quilômetros <br></br>
+                        Consultar  dias de saída para o destino <br></br>
+                      </p>
+                  </div>
+                  <div className='col-lg-6 passeio-modal-description'>
+                      <h3 className="title-modal-description">O QUE ESTA INCLUSO:</h3>
+                      <p>
+                        N/D
+                      </p>
+                  </div>
+              </div>
+              <div className='row' style={{ padding: '15px' }}>
+                  <div className='col-lg-6 passeio-modal-description'>
+                      <h3 className="title-modal-description">O QUE NAO ESTA  INCLUSO:</h3>
+                      <p>
+                        Serviços terceirizados <br></br>
+                        Alimentos e Bebidas <br></br>
+                        Opcional de jardineira na Praia de Tourinhos <br></br>
+                        Entrada na Casa de Taipa <br></br>
+                      </p>
+                  </div>
+                  <div className='col-lg-6 passeio-modal-description'>
+                      <h3 className="title-modal-description">OBSERVACOES:</h3>
+                      <p>
+                        N/D
                       </p>
                   </div>
               </div>
